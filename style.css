@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 html, body {
   height: 100%;
   width: 100%;
@@ -7,6 +8,10 @@ html, body {
   --thumbBG: #ffffff;
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  position: -webkit-sticky;
+  position: sticky;
+  display: inline-block;
+  margin-inline: max(0px, ((100% - 64rem) / 2));
 }
 body::-webkit-scrollbar {
   width: 11px;
@@ -19,9 +24,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
-.wrapper {
-   position: -webkit-sticky; /* Safari */
+/* .wrapper {
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
   margin-inline: max(0px, ((100% - 64rem) / 2));
   display: inline-block;
   padding: 8px;
@@ -35,8 +41,8 @@ body::-webkit-scrollbar-thumb {
                 transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-}
-button {
+} */
+/* button {
     display: inline-block;
     border: none;
     padding: 1rem 2rem;
@@ -94,9 +100,9 @@ button:active {
 
 .button:active {
     transform: scale(0.99);
-}
+} */
 
-.wrapper:focus, .wrapper:hover {
+/* .wrapper:focus, .wrapper:hover {
     outline: 1px solid black;
     outline-offset: -4px;
-}
+} */
