@@ -28,7 +28,7 @@ function move() {
 }
 </script>
 <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>File Upload</title>
   
   <link href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" rel="stylesheet" type="text/css" />
@@ -65,6 +65,6 @@ function move() {
     </a>
 </p>
 </div>
-<p class="bi bi-browser-chrome">Tested in chrome</p>
+<p class="bi bi-browser-chrome">Tested in chrome desktop and opera mobile.</p>
 </body>
 </html>
