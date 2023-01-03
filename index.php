@@ -66,7 +66,7 @@ function move() {
 </p>
 </div>
 <div class="w3-container w3-display-container w3-card w3-panel">
-<p class="bi bi-browser-chrome">Tested in chrome desktop and opera mobile.</p>
+<p class="bi bi-browser-chrome">Tested in chrome and edge desktop and chrome, duckduckgo, and opera mobile.</p>
 <button onclick="window.location.href='/uploads.php';" class="bi bi-cloud w3-bar-item w3-btn">Code and Uploads</button>
 <br>
 </div>
