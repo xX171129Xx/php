@@ -65,6 +65,25 @@ function move() {
     </a>
 </p>
 </div>
+<div class="w3-container w3-display-container w3-card w3-panel">
 <p class="bi bi-browser-chrome">Tested in chrome desktop and opera mobile.</p>
+<button onclick="window.location.href='/uploads.php';" class="bi bi-cloud w3-bar-item w3-btn">Code and Uploads</button>
+<br>
+</div>
+<div class="w3-container w3-display-container w3-card w3-panel w3-hide">
+<?php
+echo "Uploads <br>";
+$path = "uploads/";
+$dh = opendir($path);
+$i=1;
+while (($file = readdir($dh)) !== false) {
+    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
+        echo "<a href='$path/$file'>$file</a><br /><br />";
+        $i++;
+    }
+}
+closedir($dh);
+?>
+</div>
 </body>
 </html>
