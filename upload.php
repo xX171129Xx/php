@@ -16,12 +16,12 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-<div class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
+<nav class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
 <button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn">Home</button>
 <button onclick="window.location.href='/index.php';" class="bi bi-cloud w3-bar-item w3-btn">File Upload</button>
 <button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn">Go Back</button>
-</div>
-<div class="w3-container w3-display-container w3-card w3-panel">
+</nav>
+<main class="w3-container w3-display-container w3-card w3-panel">
 <?php
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -46,4 +46,4 @@ if ($uploadOk == 0) {
   }
 }
   ?>
-</div>
+</main>

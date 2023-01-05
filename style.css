@@ -40,3 +40,6 @@ button:focus, input:focus {
 button:active, input:active {
     transform: scale(0.99);
 }
+img {
+    filter: brightness(.8) contrast(1.2);
+  }
