@@ -76,7 +76,7 @@ body { font-family: tahoma, verdana, arial; font-size: 0.7em; color: black; padd
 #idx a:hover   { text-decoration: none; }
 #idx a:active  { color: #9DCC00; }
 </style>
-
+<link href="style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 var _c1='#fefefe'; var _c2='#fafafa'; var _ppg=25; var _cpg=1; var _files=[]; var _dirs=[]; var _tpg=null; var _tsize=0; var _sort='date'; var _sdir={'type':0,'name':0,'size':0,'date':1}; var idx=null; var tbl=null;
