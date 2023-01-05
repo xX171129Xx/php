@@ -3,9 +3,9 @@ html, body {
   height: 100%;
   width: 100%;
   background: black;
-  color: white;
+  color: lime;
   --scrollbarBG: #000000;
-  --thumbBG: #ffffff;
+  --thumbBG: #00ff00;
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
   position: -webkit-sticky;
@@ -25,85 +25,13 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
-/* .wrapper {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  margin-inline: max(0px, ((100% - 64rem) / 2));
-  display: inline-block;
-  padding: 8px;
-  background: black;
+button, input {
+  background-color: #00ff00; /* Green */
   border: none;
-  margin: 0;
-  text-decoration: none;
-  color: #ffffff;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-} */
-/* button {
-    display: inline-block;
-    border: none;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: black;
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
-.button {
-    display: inline-block;
-    border: solid;
-    border-color: black;
-    padding: 1rem 2rem;
-    margin: 0;
-    text-decoration: none;
-    background: black;
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
-
-button:hover,
-button:focus {
-    background: black;
-}
-
-.button:hover,
-.button:focus {
-    background: black;
-}
-
-button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-.button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-
-button:active {
-    transform: scale(0.99);
-}
-
-.button:active {
-    transform: scale(0.99);
-} */
-
-/* .wrapper:focus, .wrapper:hover {
-    outline: 1px solid black;
-    outline-offset: -4px;
-} */
