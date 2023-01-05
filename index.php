@@ -73,8 +73,8 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 <div class="w3-container w3-display-container w3-card w3-panel">
 <form action="upload.php" method="post" enctype="multipart/form-data">
   <p>Select file to upload (Files above 500KB may or may not upload, please give files time to upload):</p>
-  <input type="file" name="fileToUpload" id="fileToUpload"  class="w3-btn" class="button">
-  <input type="submit" value="Upload File" name="submit"  class="w3-btn" class="button">
+  <input type="file" name="fileToUpload" id="fileToUpload"  class="w3-btn">
+  <input type="submit" value="Upload File" name="submit"  class="w3-btn">
 </form>
 </div>
 <div class="w3-container w3-display-container w3-card w3-panel">
