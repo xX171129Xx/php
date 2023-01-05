@@ -46,6 +46,7 @@ $up_url=($up_dir!=''&&$up_dir!='.')?$self.'?dir='.rawurlencode($up_dir):$self;
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+<meta name="color-scheme" content="dark">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RFCGKMZY1"></script>
 <script>

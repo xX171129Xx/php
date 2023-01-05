@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="color-scheme" content="dark">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RFCGKMZY1"></script>
 <script>
