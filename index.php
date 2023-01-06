@@ -83,15 +83,6 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 <?php echo "Anything you upload here is public."?>
 <button onclick="window.location.href='https://legal.tehost.ml';" class="w3-btn">See terms</button>
 </section>
-<section class="w3-container w3-display-container w3-hide w3-card w3-panel">
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-</section>
 <section class="w3-container w3-display-container w3-card w3-panel">
 <p class="bi bi-browser-chrome">Tested in chrome and edge desktop and chrome, duckduckgo, and opera mobile. No adblock please.</p>
   <br>
