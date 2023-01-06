@@ -80,15 +80,15 @@ function _head()
 {
 	if(!idx)return;
 	_tpg=Math.ceil((_files.length+_dirs.length)/_ppg);
-	idx.innerHTML='<div class="rounded gray" style="padding:5px 10px 5px 7px;color:#202020">' +
+	idx.innerHTML='<section class="rounded gray" style="padding:5px 10px 5px 7px;color:#202020">' +
 		'<p class="left">' +
 			'<strong><?php print$current_dir_name==''?$sitename:$current_dir_name?></strong><?php print$dir!=''?'&nbsp; (<a href="'.$up_url.'">Back</a>)':''?><br />' + (_files.length+_dirs.length) + ' objects in this folder, ' + _s(_tsize) + ' total.' +
 		'</p>' +
 		'<p class="right">' +
 			'Sort: <span class="link" onmousedown="return _srt(\'name\');" id="sort_name">Name</span>, <span class="link" onmousedown="return _srt(\'type\');" id="sort_type">Type</span>, <span class="link" onmousedown="return _srt(\'size\');" id="sort_size">Size</span>, <span class="link" onmousedown="return _srt(\'date\');" id="sort_date">Date</span>' +
 		'</p>' +
-		'<div style="clear:both;"></div>' +
-	'</div><div id="idx_tbl"></div>';
+		'<section style="clear:both;"></section>' +
+	'</section><section id="idx_tbl"></section>';
 	tbl=_obj('idx_tbl');
 }
 
@@ -115,6 +115,6 @@ window.onload=function()
 </script>
 </head>
 <body>
-	<div id="idx"><!-- do not remove --></div>
+	<section id="idx"><!-- do not remove --></section>
 </body>
 </html>
