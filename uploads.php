@@ -58,25 +58,6 @@ $up_url=($up_dir!=''&&$up_dir!='.')?$self.'?dir='.rawurlencode($up_dir):$self;
 </script>
 <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
 <title><?php print$current_dir_name==''?'Directory list':$current_dir_name?></title>
-<style type="text/css">
-body { font-family: tahoma, verdana, arial; font-size: 0.7em; color: black; padding-top: 8px; cursor: default; background-color: #fff; }
-#idx { border: 3px solid #fff; width: 500px; }
-#idx td.center { text-align: center; }
-#idx td { border-bottom: 1px solid #f0f0f0; }
-#idx img { margin-bottom: -2px; }
-#idx table { color: #606060; width: 100%; margin-top:3px; }
-#idx span.link { color: #0066DF; cursor: pointer; }
-#idx .rounded { padding: 10px 7px 10px 10px; -moz-border-radius:6px; }
-#idx .gray { background-color:#fafafa;border-bottom: 1px solid #e5e5e5; }
-#idx p { padding: 0px; margin: 0px;line-height:1.4em;}
-#idx p.left { float:left;width:60%;padding:3px;color:#606060;}
-#idx p.right {float:right;width:35%;text-align:right;color:#707070;padding:3px;}
-#idx strong { font-family: "Trebuchet MS", tahoma, arial; font-size: 1.2em; font-weight: bold; color: #202020; padding-bottom: 3px; margin: 0px; }
-#idx a:link    { color: #0066CC; }
-#idx a:visited { color: #003366; }
-#idx a:hover   { text-decoration: none; }
-#idx a:active  { color: #9DCC00; }
-</style>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--

@@ -74,6 +74,7 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 <main class="w3-container w3-display-container w3-card w3-panel">
 <form action="upload.php" method="post" enctype="multipart/form-data">
   <p>Select file to upload (Files above 500KB may or may not upload, please give files time to upload):</p>
+  <br>
   <input type="file" name="fileToUpload" id="fileToUpload"  class="w3-btn">
   <input type="submit" value="Upload File" name="submit"  class="w3-btn">
 </form>
@@ -93,23 +94,9 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 </section>
 <section class="w3-container w3-display-container w3-card w3-panel">
 <p class="bi bi-browser-chrome">Tested in chrome and edge desktop and chrome, duckduckgo, and opera mobile. No adblock please.</p>
+  <br>
 <button onclick="window.location.href='/uploads.php';" class="bi bi-cloud w3-bar-item w3-btn">Code and Uploads</button>
 <br>
-</section>
-<section class="w3-container w3-display-container w3-card w3-panel w3-hide">
-<?php
-echo "Uploads <br>";
-$path = "uploads/";
-$dh = opendir($path);
-$i=1;
-while (($file = readdir($dh)) !== false) {
-    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
-        echo "<a href='$path/$file'>$file</a><br /><br />";
-        $i++;
-    }
-}
-closedir($dh);
-?>
 </section>
 </body>
 </html>
