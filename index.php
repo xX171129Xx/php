@@ -66,9 +66,9 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 
 </script>
 <nav class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
-<button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn">Home</button>
-<button onclick="window.location.href='/';" class="bi bi-cloud w3-bar-item w3-btn">File Upload</button>
-<button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn">Go Back</button>
+<button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn"></button>
+<button onclick="window.location.href='/';" class="bi bi-cloud w3-bar-item w3-btn"></button>
+<button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn"></button>
 <button onclick="move()" class="w3-hide w3-bar-item w3-btn">Move</button>  
 </nav>
 <main class="w3-container w3-display-container w3-card w3-panel">
@@ -80,7 +80,7 @@ if(document.getElementById(‘mnMzPGBywKre’)){
 </form>
 </main>
 <section class="w3-container w3-display-container w3-card w3-panel">
-<?php echo "Anything you upload here is public."?>
+<p>Anything you upload here is public.</p>
 <button onclick="window.location.href='https://legal.tehost.ml';" class="w3-btn">See terms</button>
 </section>
 <section class="w3-container w3-display-container w3-card w3-panel">

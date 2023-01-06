@@ -17,9 +17,9 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <nav class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
-<button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn">Home</button>
-<button onclick="window.location.href='/index.php';" class="bi bi-cloud w3-bar-item w3-btn">File Upload</button>
-<button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn">Go Back</button>
+<button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn"></button>
+<button onclick="window.location.href='/index.php';" class="bi bi-cloud w3-bar-item w3-btn"></button>
+<button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn"></button>
 </nav>
 <main class="w3-container w3-display-container w3-card w3-panel">
 <?php
