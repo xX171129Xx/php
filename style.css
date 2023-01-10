@@ -1,10 +1,12 @@
-html, head, body, button, input, a, p, form, br, img, nav, main, section, strong, span, td, table {
-  background: black;
-  color: lime;
-}
-* {
+html, head, body {
   max-width: 100%;
   max-height: 100%;
-  box-sizing: border-box;
-  text-size: 100%;
+  background: black;
+  color: lime; 
+}
+html, head, body * {
+  max-width: 100%;
+  max-height: 100%;
+  background: black;
+  color: lime;
 }
