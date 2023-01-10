@@ -3,7 +3,7 @@
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
 <meta name="color-scheme" content="dark">
 <!-- Google tag (gtag.js) -->
