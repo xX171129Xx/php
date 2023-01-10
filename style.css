@@ -1,43 +1,10 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
-html, head, body, button, input, a, p, form, br {
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
+html, head, body, button, input, a, p, form, br, img, nav, main, section, strong, span, td, table {
   background: black;
   color: lime;
 }
-img {
+* {
   max-width: 100%;
   max-height: 100%;
-  background: black;
-  color: lime;
+  box-sizing: border-box;
+  text-size: 100%;
 }
-nav, main, section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-button:focus, input:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
-}
-button:active, input:active {
-    transform: scale(0.99);
-}
-#idx { border: 3px solid #000000; width: 500px; }
-#idx td.center { text-align: center; }
-#idx td { border-bottom: 1px solid #000000; }
-#idx img { margin-bottom: -2px; }
-#idx table { color: #00ff00; width: 100%; margin-top:3px; }
-#idx span.link { color: #00ff00; cursor: pointer; }
-#idx .rounded { padding: 10px 7px 10px 10px; -moz-border-radius:6px; }
-#idx .gray { background-color:#000000;border-bottom: 1px solid #00ff00; }
-#idx p { padding: 0px; margin: 0px;line-height:1.4em;}
-#idx p.left { float:left;width:60%;padding:3px;color:#00ff00;}
-#idx p.right {float:right;width:35%;text-align:right;color:#00ff00;padding:3px;}
-#idx strong { font-family: "Trebuchet MS", tahoma, arial; font-size: 1.2em; font-weight: bold; color: #00ff00; padding-bottom: 3px; margin: 0px; }
-#idx a:link    { color: #00ff00; }
-#idx a:visited { color: #00ff00; }
-#idx a:hover   { text-decoration: none; }
-#idx a:active  { color: #00ff00; }
