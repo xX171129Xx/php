@@ -10,5 +10,5 @@ html, head, body * {
   max-height: 100%;
   background: black;
   color: lime;
-  margin: 0;
+  padding: 0;
 }
