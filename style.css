@@ -4,11 +4,13 @@ html, head, body {
   background: black;
   color: lime;
   margin: 0;
+  padding: 0;
 }
 html, head, body * {
   max-width: 100%;
   max-height: 100%;
   background: black;
   color: lime;
+  margin: 0;
   padding: 0;
 }
