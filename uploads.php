@@ -46,7 +46,7 @@ $up_url=($up_dir!=''&&$up_dir!='.')?$self.'?dir='.rawurlencode($up_dir):$self;
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1RFCGKMZY1"></script>
@@ -59,9 +59,13 @@ $up_url=($up_dir!=''&&$up_dir!='.')?$self.'?dir='.rawurlencode($up_dir):$self;
 </script>
 <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
 <title><?php print$current_dir_name==''?'Directory list':$current_dir_name?></title>
+<link href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="styles.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script type="text/javascript">
 <!--
 var _c1='#fefefe'; var _c2='#fafafa'; var _ppg=25; var _cpg=1; var _files=[]; var _dirs=[]; var _tpg=null; var _tsize=0; var _sort='date'; var _sdir={'type':0,'name':0,'size':0,'date':1}; var idx=null; var tbl=null;
 function _obj(s){return document.getElementById(s);}
@@ -117,6 +121,11 @@ window.onload=function()
 </script>
 </head>
 <body>
-	<section id="idx"><!-- do not remove --></section>
+	<nav class="w3-container w3-display-container w3-card w3-panel" style="width:200px;">
+<button onclick="window.location.href='https://tehost.ml';" class="bi bi-house w3-bar-item w3-btn"></button>
+<button onclick="window.location.href='/';" class="bi bi-cloud w3-bar-item w3-btn"></button>
+<button onclick="history.back()" class="bi bi-arrow-left w3-bar-item w3-btn"></button> 
+</nav>
+  <section id="idx"><!-- do not remove --></section>
 </body>
 </html>
